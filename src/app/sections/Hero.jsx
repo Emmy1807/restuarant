@@ -37,7 +37,7 @@ const Hero = () => {
                     data-aos-delay="200"
                 >
                     <a 
-                    href="https://www.youtube.com/watch?v=xPPLbEFbCAo"
+                    href="https://www.youtube.com/watch?v=xPPLbEFbCAo"       
                     className="glightbox play-btn"
                     ></a>
                 </div>
