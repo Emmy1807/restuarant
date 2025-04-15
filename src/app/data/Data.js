@@ -289,3 +289,100 @@ export const bookings = [
         }
     }
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        content: 'The spaghetti bolognese was absolutely amazing! Perfectly balanced flavors, beautifully presented, and cooked to perfection. It’s a must-try for anyone visiting E-classy restuarant',
+        avatar: '/assets/testimonial/41.jpeg',
+        client: 'Cold Palmer',
+        position: 'CEO',
+    },
+    {
+        id: 2,
+        content: 'Hands down, some of the best food I’ve had recently! The freshness of the ingredients and the unique flavors in the chinese rice were unforgettable. Highly recommended for food enthusiasts!',
+        avatar: '/assets/testimonial/42.jpeg',
+        client: 'Enzo Fernandez',
+        position: 'Consultant',
+    },
+    {
+        id: 3,
+        content: 'I’m still dreaming about my meal at E-classy restuarant! Each bite was a delight, and the presentation just blew us away. Don’t miss out on trying their macaroni and cheese.',
+        avatar: '/assets/testimonial/44.jpeg',
+        client: 'Noni Madueke',
+        position: 'Entrepreneur',
+    },
+    {
+        id: 4,
+        content: 'From appetizers to desserts, this restaurant exceeded all our expectations! Our family enjoyed the appetizers, the raspberry cake was a crowd-pleaser! Highly recommended!',
+        avatar: '/assets/testimonial/45.jpeg',
+        client: 'Jadon Sancho',
+        position: 'Freelancer',
+    },
+    {
+        id: 5,
+        content: 'The menu offers a wide variety of options, and everything we tried was delicious. I especially loved the creative twists on classic dishes. E-classy restuarant is the best',
+        avatar: '/assets/testimonial/46.jpeg',
+        client: 'Levi Colwill',
+        position: 'Store Owner',
+    },
+]
+
+export const gallery = [
+    {
+        id: 1,
+        image: '/assets/gallery/3.jpg',
+    },
+    {
+        id: 2,
+        image: '/assets/gallery/2.jpg',
+    },
+    {
+        id: 3,
+        image: '/assets/gallery/47.jpg',
+    },
+    {
+        id: 4,
+        image: '/assets/gallery/48.jpg',
+    },
+    {
+        id: 5,
+        image: '/assets/gallery/49.jpg',
+    },
+    {
+        id: 6,
+        image: '/assets/gallery/50.jpg',
+    },
+    {
+        id: 7,
+        image: '/assets/gallery/51.jpg',
+    },
+    {
+        id: 8,
+        image: '/assets/gallery/52.jpg',
+    },
+]
+
+export const chefs = [
+    {
+        id: 1,
+        name: 'Walter White',
+        photo: '/assets/chef/53.jpg',
+        position: 'Master Chef',
+        delay: '100',
+    },
+    {
+        id: 2,
+        name: 'Charlotte',
+        photo: '/assets/chef/54.jpg',
+        position: 'Patissier',
+        delay: '200',
+    },
+    {
+        id: 3,
+        name: 'Cook',
+        photo: '/assets/chef/55.jpg',
+        position: 'Mia Jhonson',
+        delay: '300',
+    },
+]

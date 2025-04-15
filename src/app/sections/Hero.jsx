@@ -24,7 +24,7 @@ const Hero = () => {
                     <h1>
                         Welcome to E-Classy <span>Restuarant</span>
                     </h1>
-                    <h2>Delivering great food for more than 18 years!</h2>
+                    <h2>Delivering great food for more decades!</h2>
 
                     <div className="btns">
                         <HeroBtn name="our menu" target="menu"/>

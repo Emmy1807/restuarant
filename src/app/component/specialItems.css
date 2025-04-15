@@ -15,7 +15,9 @@
 }
 .specials img {
     border-radius: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
+    height: 200px;
+    width: 220px;
 }
 
 .specials .details p:last-child {
