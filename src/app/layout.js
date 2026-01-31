@@ -7,6 +7,7 @@ import "./globals.css";
 import TopBar from './component/TopBar';
 import Header from './component/Header';
 import BackToTopBtn from './component/BackToTopBtn';
+import Footer from './sections/Footer';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
         <TopBar/>
         <Header/>
         {children}
+        <Footer />
         <BackToTopBtn/>
       </body>
     </html>

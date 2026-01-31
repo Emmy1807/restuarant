@@ -36,7 +36,7 @@ async function getFoodData(id) {
 export default async function MenuSingle({params}) {
     const id = await params.id;
 
-    const food = await getFoodData(id) 
+    const food = getFoodData(id) 
   return (
     <main id="main">
         <BreadCrumb page="Menu"/>   

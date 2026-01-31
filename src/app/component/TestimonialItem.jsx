@@ -11,7 +11,7 @@ const TestimonyItem = ({item}) => {
         </p>
         <img src={item.avatar} className="testimonial-img" alt="" />
         <h3>{item.client}</h3>
-        <h4>{item.position}</h4>
+        {/* <h4>{item.position}</h4> */}
     </div>
   )
 }
