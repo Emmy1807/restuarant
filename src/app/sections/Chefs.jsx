@@ -1,14 +1,10 @@
 import React from 'react'
 import SectionTitle from '../component/SectionTitle';
 import ChefItem from '../component/ChefItem';
+import { chefs } from '../data/Data';
 
-async function getChefsData () {
-  const res = await fetch('http://localhost:3000/chef')
-  return res.json();
-} 
-
-const Chefs = async () => {
-  const items = await getChefsData();
+const Chefs = () => {
+  const items = chefs;
   return (
     <section id="chefs" className="chefs">
       <div className="container" data-aos="fade-up">

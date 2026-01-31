@@ -26,17 +26,12 @@
 import React from "react";
 import BreadCrumb from "@/app/component/BreadCrumb";
 import Image from "next/image";
+import { menu } from "@/app/data/Data";
     
 
-async function getFoodData(id) {
-    const res = await fetch(`http://localhost:3000/menu/${id}`)
-    return res.json();
-}
-
-export default async function MenuSingle({params}) {
-    const id = await params.id;
-
-    const food = getFoodData(id) 
+export default function MenuSingle({params}) {
+    const id = params.id;
+    const food = menu.find((item) => item.id.toString() === id);
   return (
     <main id="main">
         <BreadCrumb page="Menu"/>   

@@ -9,7 +9,7 @@ const Gallery = () => {
     const [images, setImage] = useState([]);
 
     const getGalleryData = () => {
-    fetch('http://localhost:3000/gallery')
+    fetch('/api/gallery')
       .then(res => res.json())
       .then(data => setImage(data))
       .catch(e => console.log(e.message));

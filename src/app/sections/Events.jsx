@@ -19,7 +19,7 @@ const Events = () => {
     const [slide, setSlide] = useState([]);
 
     const getEventsData = () => {
-        fetch('http://localhost:3000/events')
+        fetch('/api/events')
         .then(res => res.json())
         .then(data => setSlide(data))
         .catch(e => console.log(e.message));

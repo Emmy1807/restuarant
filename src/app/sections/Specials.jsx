@@ -17,7 +17,7 @@ const Specials = () => {
         const getSpecialData = async () => {
             try {
                 setLoading(true);
-                const response = await fetch('http://localhost:3000/specials'); // Changed to relative path
+                const response = await fetch('/api/specials'); // Changed to API path
                 if (!response.ok) {
                     throw new Error('Failed to fetch specials');
                 }
