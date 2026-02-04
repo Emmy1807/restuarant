@@ -2,14 +2,10 @@ import React from 'react'
 import './whyUs.css'
 import WhyUsCard from '../component/WhyUsCard';
 import SectionTitle from '../component/SectionTitle';
+import { whyUs } from '../data/Data';
 
-async function getWhyUsData() {
-    const res = await fetch('http://localhost:3000/whyus')
-    return res.json();
-}
-
-const WhyUs = async function () {
-    const items = await getWhyUsData();
+const WhyUs = function () {
+    const items = whyUs;
 
   return (
     <section id="why-us" className="why-us">

@@ -12,7 +12,7 @@ const Menu = () => {
   const [items, setItems] = useState([]);
 
   const getMenuData = () => {
-    fetch('http://localhost:3000/menu')
+    fetch('/api/menu')
       .then(res => res.json())
       .then(menu => setData(menu))
       .catch(e => console.log(e.message));
