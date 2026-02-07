@@ -38,7 +38,7 @@ const Testimonials = () => {
 
       <div data-aos="fade-up" data-aos-delay="100">
         <Swiper
-        slidePerView={'auto'}
+        slidesPerView={'auto'}
         speed={600}
         autoplay={{
           delay: 5000,
